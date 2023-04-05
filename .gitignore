@@ -23,7 +23,7 @@ bin/
 /.nb-gradle/
 
 ### idea ###
-.idea/
+.idea
 
 ### VS Code ###
 .vscode/

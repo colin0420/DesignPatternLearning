@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dbc3ba-2b82-455f-804e-9121130ca95c" name="Changes" comment="提交动态代理实例代码">
-      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+    <list default="true" id="67dbc3ba-2b82-455f-804e-9121130ca95c" name="Changes" comment="结构型模式学习">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/设计模式学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/设计模式学习.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680707596441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交gitignore">
+      <created>1680708241948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680708241948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="结构型模式学习">
+      <created>1680708258070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680708258070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +116,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交动态代理实例代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交动态代理实例代码" />
+    <MESSAGE value="提交gitignore" />
+    <MESSAGE value="结构型模式学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="结构型模式学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
