@@ -1,4 +1,4 @@
-package proxy;
+package main.java.proxy;
 
 public class UserDao implements AbstractUserDao {
     @Override

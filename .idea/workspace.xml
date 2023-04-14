@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dbc3ba-2b82-455f-804e-9121130ca95c" name="Changes" comment="结构型模式学习">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="67dbc3ba-2b82-455f-804e-9121130ca95c" name="Changes" comment="结构型模式学习-命令模式学习">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/command/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/command/HelperCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/invoker/FunctionButtonInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/receiver/ExitCommandReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cmd/receiver/HelperCommandReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatternLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatternLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/设计模式学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/设计模式学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/AbstractDocumentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/AbstractDocumentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/AbstractUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/AbstractUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/DaoLogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/DaoLogHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/DocumentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/DocumentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proxy/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +46,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\SoftWares\Maven\apache-maven-3.8.8\LocalRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../SoftWares/Maven/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\SoftWares\Maven\apache-maven-3.8.8\conf" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -43,15 +64,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IntelliJ IDEA/eclipse-codestyle.xml&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "D:/IntelliJ IDEA/eclipse-codestyle.xml",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proxy.Client" />
@@ -102,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680708258070</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="结构型模式学习-命令模式学习">
+      <created>1681485064754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681485064755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,13 +148,14 @@
     <MESSAGE value="提交动态代理实例代码" />
     <MESSAGE value="提交gitignore" />
     <MESSAGE value="结构型模式学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="结构型模式学习" />
+    <MESSAGE value="结构型模式学习-命令模式学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="结构型模式学习-命令模式学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/proxy/DaoLogHandler.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/proxy/DaoLogHandler.java</url>
           <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
