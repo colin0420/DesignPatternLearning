@@ -15,7 +15,8 @@ public class FunctionButtonInvoker {
     public void click() {
         if (command != null) {
             command.execute();
+        } else {
+            throw new NullPointerException();
         }
-        throw new NullPointerException();
     }
 }

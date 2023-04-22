@@ -1,6 +1,6 @@
 package main.java.cmd.command;
 
-import cmd.receiver.HelperCommandReceiver;
+import main.java.cmd.receiver.HelperCommandReceiver;
 
 /**
  * 帮助命令-具体命令
@@ -14,6 +14,6 @@ public class HelperCommand extends Command {
 
     @Override
     public void execute() {
-
+        helperCommandReceiver.help();
     }
 }

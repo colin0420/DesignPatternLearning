@@ -1,6 +1,6 @@
 package main.java.cmd.command;
 
-import cmd.receiver.ExitCommandReceiver;
+import main.java.cmd.receiver.ExitCommandReceiver;
 
 /**
  * 退出命令-具体命令
